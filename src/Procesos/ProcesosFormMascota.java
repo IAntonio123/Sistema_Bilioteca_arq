@@ -5,31 +5,31 @@
 package Procesos;
 
 import Modelo.Mascota;
-import Vista.FormMascota;
+import Vista.FormLibro;
 
 /**
  *
  * @author Antonio
  */
 public class ProcesosFormMascota {
-    public static void Presentacion(FormMascota fmasc){
+    public static void Presentacion(FormLibro fmasc){
         fmasc.setTitle("Mascota");
         fmasc.txtcodigo.setEnabled(false);
         fmasc.setVisible(true);
     }
-    public static void EstadoRegistro(FormMascota fmasc){
+    public static void EstadoRegistro(FormLibro fmasc){
         fmasc.btnActualizar.setEnabled(false);
         fmasc.btnRegistrar.setEnabled(true);
         fmasc.btnConsultar.setEnabled(true);
     }
     
-    public static void EstadoConsulta(FormMascota fmasc){
+    public static void EstadoConsulta(FormLibro fmasc){
         fmasc.btnActualizar.setEnabled(true);
         fmasc.btnRegistrar.setEnabled(false);
         fmasc.btnConsultar.setEnabled(true);
     }
     
-    public static void LimpiarEntradas(FormMascota fmasc){
+    public static void LimpiarEntradas(FormLibro fmasc){
         fmasc.txtcodigo.setText("");
         fmasc.txtNombre.setText("");
         fmasc.txtPeso.setText("");
@@ -41,7 +41,7 @@ public class ProcesosFormMascota {
         fmasc.spnEdad.setValue(0);
     }
     
-    public static Mascota LeerDatos(FormMascota fmasc){
+    public static Mascota LeerDatos(FormLibro fmasc){
         Mascota pet=new Mascota();
         pet.setCodigoMascota(fmasc.txtcodigo.getText());
         pet.setDniPropietario(fmasc.txtDni.getText());
