@@ -9,5 +9,7 @@ package Dao;
  * @author Antonio
  */
 public interface Parametros {
+    String DRIVER="com.microsoft.sqlserver.jdbc.SQLServerDriver";
+    String RUTA="jdbc:sqlserver://localhost:1433;databaseName=Veterinaria;user=Recepcionista;password=ventas123;encrypt=true;trustServerCertificate=true;";
     
 }
