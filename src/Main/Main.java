@@ -1,11 +1,9 @@
 
 package Main;
 
-import Controlador.ControladorLogin;
-import Controlador.ControladorMenu;
+import Controlador.*;
 import Modelo.Usuario;
-import Vista.FormInicio;
-import Vista.FormLogin;
+import Vista.*;
 
 public class Main {
     public static FormLogin fl;
@@ -13,6 +11,15 @@ public class Main {
     
     public static FormInicio fi;
     public static ControladorMenu controlfi;
+    
+    public static FormAutor faut;
+    public static ControladorAutor controlfaut;
+    
+    public static FormCliente fcli;
+    public static ControladorCliente controlfcli;
+    
+    public static FormLibro flib;
+    public static ControladorLibro controlflib;
     
     public static Usuario userSesion;
     public static void main(String[] args) {

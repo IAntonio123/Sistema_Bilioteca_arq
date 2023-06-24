@@ -45,7 +45,7 @@
             <Property name="text" type="java.lang.String" value="Negocio"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="jmiCita">
+            <MenuItem class="javax.swing.JMenuItem" name="jmFormVenta">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Venta"/>
               </Properties>
@@ -53,7 +53,7 @@
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
               </AuxValues>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jmiListaCitas">
+            <MenuItem class="javax.swing.JMenuItem" name="jmFormPrestamo">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Prestamo"/>
               </Properties>
@@ -68,12 +68,12 @@
             <Property name="text" type="java.lang.String" value="Listar"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+            <MenuItem class="javax.swing.JMenuItem" name="jmMostrarVentas">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Mostrar Ventas"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3">
+            <MenuItem class="javax.swing.JMenuItem" name="jmMostrarPrestamos">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Mostrar prestamos"/>
               </Properties>

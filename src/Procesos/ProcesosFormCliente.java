@@ -4,10 +4,15 @@
  */
 package Procesos;
 
+import Vista.FormCliente;
+
 /**
  *
  * @author Antonio
  */
 public class ProcesosFormCliente {
-    
+    public static void Presentacion(FormCliente fcli){
+        fcli.setTitle("Cliente");
+        fcli.setVisible(true);
+    }
 }

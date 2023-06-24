@@ -2,18 +2,21 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Procesos;
+package Controlador;
 
+import Modelo.Autor;
+import Procesos.ProcesosFormAutor;
 import Vista.FormAutor;
-import Vista.FormCliente;
 
 /**
  *
  * @author Antonio
  */
-public class ProcesosFormAutor {
-    public static void Presentacion(FormAutor faut){
-        faut.setTitle("Autor");
-        faut.setVisible(true);
+public class ControladorAutor {
+    FormAutor vista;
+    Autor cli;
+    public ControladorAutor(FormAutor faut){
+        vista=faut;
+        ProcesosFormAutor.Presentacion(faut);
     }
 }

@@ -4,10 +4,19 @@
  */
 package Controlador;
 
+import Modelo.Cliente;
+import Procesos.ProcesosFormCliente;
+import Vista.FormCliente;
+
 /**
  *
  * @author Antonio
  */
 public class ControladorCliente {
-    
+    FormCliente vista;
+    Cliente cli;
+    public ControladorCliente(FormCliente fcli){
+        vista=fcli;
+        ProcesosFormCliente.Presentacion(fcli);
+    }
 }

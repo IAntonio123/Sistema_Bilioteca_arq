@@ -36,11 +36,11 @@ public class FormInicio extends javax.swing.JFrame {
         jmFormLibro = new javax.swing.JMenuItem();
         jmFormAutor = new javax.swing.JMenuItem();
         jmNegocio = new javax.swing.JMenu();
-        jmiCita = new javax.swing.JMenuItem();
-        jmiListaCitas = new javax.swing.JMenuItem();
+        jmFormVenta = new javax.swing.JMenuItem();
+        jmFormPrestamo = new javax.swing.JMenuItem();
         jmListar = new javax.swing.JMenu();
-        jMenuItem2 = new javax.swing.JMenuItem();
-        jMenuItem3 = new javax.swing.JMenuItem();
+        jmMostrarVentas = new javax.swing.JMenuItem();
+        jmMostrarPrestamos = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
         jMenuItem4 = new javax.swing.JMenuItem();
         jMenuItem6 = new javax.swing.JMenuItem();
@@ -95,21 +95,21 @@ public class FormInicio extends javax.swing.JFrame {
 
         jmNegocio.setText("Negocio");
 
-        jmiCita.setText("Venta");
-        jmNegocio.add(jmiCita);
+        jmFormVenta.setText("Venta");
+        jmNegocio.add(jmFormVenta);
 
-        jmiListaCitas.setText("Prestamo");
-        jmNegocio.add(jmiListaCitas);
+        jmFormPrestamo.setText("Prestamo");
+        jmNegocio.add(jmFormPrestamo);
 
         jMenuBar1.add(jmNegocio);
 
         jmListar.setText("Listar");
 
-        jMenuItem2.setText("Mostrar Ventas");
-        jmListar.add(jMenuItem2);
+        jmMostrarVentas.setText("Mostrar Ventas");
+        jmListar.add(jmMostrarVentas);
 
-        jMenuItem3.setText("Mostrar prestamos");
-        jmListar.add(jMenuItem3);
+        jmMostrarPrestamos.setText("Mostrar prestamos");
+        jmListar.add(jmMostrarPrestamos);
 
         jMenuBar1.add(jmListar);
 
@@ -182,8 +182,6 @@ public class FormInicio extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenu4;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem2;
-    private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
     private javax.swing.JMenuItem jMenuItem6;
@@ -192,11 +190,13 @@ public class FormInicio extends javax.swing.JFrame {
     public javax.swing.JMenuItem jmFormAutor;
     public javax.swing.JMenuItem jmFormCliente;
     public javax.swing.JMenuItem jmFormLibro;
+    public javax.swing.JMenuItem jmFormPrestamo;
+    public javax.swing.JMenuItem jmFormVenta;
     private javax.swing.JMenu jmListar;
+    private javax.swing.JMenuItem jmMostrarPrestamos;
+    private javax.swing.JMenuItem jmMostrarVentas;
     private javax.swing.JMenu jmNegocio;
     private javax.swing.JMenu jmRegistro;
-    public javax.swing.JMenuItem jmiCita;
-    public javax.swing.JMenuItem jmiListaCitas;
     public javax.swing.JLabel txtusuarioName;
     // End of variables declaration//GEN-END:variables
 }
