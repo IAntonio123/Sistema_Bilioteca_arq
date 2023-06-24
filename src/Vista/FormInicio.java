@@ -77,22 +77,27 @@ public class FormInicio extends javax.swing.JFrame {
                 .addComponent(txtusuarioName, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel1)
-                .addContainerGap(466, Short.MAX_VALUE))
+                .addContainerGap(450, Short.MAX_VALUE))
         );
 
+        jmRegistro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/registros_icon.png"))); // NOI18N
         jmRegistro.setText("Registro");
 
+        jmFormCliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/clientes_icon.png"))); // NOI18N
         jmFormCliente.setText("Cliente");
         jmRegistro.add(jmFormCliente);
 
+        jmFormLibro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/libros_icon.png"))); // NOI18N
         jmFormLibro.setText("Libro");
         jmRegistro.add(jmFormLibro);
 
+        jmFormAutor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/autores_icon.png"))); // NOI18N
         jmFormAutor.setText("Autor");
         jmRegistro.add(jmFormAutor);
 
         jMenuBar1.add(jmRegistro);
 
+        jmNegocio.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/negocio_icon.png"))); // NOI18N
         jmNegocio.setText("Negocio");
 
         jmFormVenta.setText("Venta");
@@ -103,6 +108,7 @@ public class FormInicio extends javax.swing.JFrame {
 
         jMenuBar1.add(jmNegocio);
 
+        jmListar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/listar_icon.png"))); // NOI18N
         jmListar.setText("Listar");
 
         jmMostrarVentas.setText("Mostrar Ventas");
@@ -113,6 +119,7 @@ public class FormInicio extends javax.swing.JFrame {
 
         jMenuBar1.add(jmListar);
 
+        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/historial_icon.png"))); // NOI18N
         jMenu4.setText("Historial");
 
         jMenuItem4.setText("Ventas");
