@@ -47,7 +47,7 @@ public class FormInicio extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         txtRol = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
+        btnPendientes = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jmRegistro = new javax.swing.JMenu();
         jmFormCliente = new javax.swing.JMenuItem();
@@ -77,7 +77,7 @@ public class FormInicio extends javax.swing.JFrame {
         );
         jdpContenedorLayout.setVerticalGroup(
             jdpContenedorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 632, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
@@ -146,7 +146,16 @@ public class FormInicio extends javax.swing.JFrame {
                 .addGap(19, 19, 19))
         );
 
-        jButton2.setText("Cerrar Sesion");
+        btnPendientes.setBackground(new java.awt.Color(0, 0, 0));
+        btnPendientes.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 14)); // NOI18N
+        btnPendientes.setForeground(new java.awt.Color(255, 255, 255));
+        btnPendientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/cerrar_sesion_iocn.png"))); // NOI18N
+        btnPendientes.setText("Cerrar Sesión");
+        btnPendientes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnPendientesActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -158,8 +167,8 @@ public class FormInicio extends javax.swing.JFrame {
                         .addContainerGap()
                         .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(34, 34, 34)
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(14, 14, 14)
+                        .addComponent(btnPendientes)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -167,16 +176,16 @@ public class FormInicio extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(29, 29, 29))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 91, Short.MAX_VALUE)
+                .addComponent(btnPendientes, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         jMenuBar1.setBorder(null);
 
         jmRegistro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/registros_icon.png"))); // NOI18N
         jmRegistro.setText("Registro");
-        jmRegistro.setFont(new java.awt.Font("Century Gothic", 1, 16)); // NOI18N
+        jmRegistro.setFont(new java.awt.Font("Century Gothic", 1, 15)); // NOI18N
         jmRegistro.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         jmRegistro.setIconTextGap(10);
         jmRegistro.setMargin(new java.awt.Insets(3, 20, 3, 6));
@@ -200,7 +209,7 @@ public class FormInicio extends javax.swing.JFrame {
 
         jmNegocio.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/negocio_icon.png"))); // NOI18N
         jmNegocio.setText("Negocio");
-        jmNegocio.setFont(new java.awt.Font("Century Gothic", 1, 16)); // NOI18N
+        jmNegocio.setFont(new java.awt.Font("Century Gothic", 1, 15)); // NOI18N
         jmNegocio.setIconTextGap(10);
         jmNegocio.setMargin(new java.awt.Insets(3, 20, 3, 6));
 
@@ -218,7 +227,7 @@ public class FormInicio extends javax.swing.JFrame {
 
         jmListar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/listar_icon.png"))); // NOI18N
         jmListar.setText("Listar");
-        jmListar.setFont(new java.awt.Font("Century Gothic", 1, 16)); // NOI18N
+        jmListar.setFont(new java.awt.Font("Century Gothic", 1, 15)); // NOI18N
         jmListar.setIconTextGap(10);
         jmListar.setMargin(new java.awt.Insets(3, 20, 3, 6));
 
@@ -232,7 +241,7 @@ public class FormInicio extends javax.swing.JFrame {
 
         jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/historial_icon.png"))); // NOI18N
         jMenu4.setText("Historial");
-        jMenu4.setFont(new java.awt.Font("Century Gothic", 1, 16)); // NOI18N
+        jMenu4.setFont(new java.awt.Font("Century Gothic", 1, 15)); // NOI18N
         jMenu4.setIconTextGap(10);
         jMenu4.setMargin(new java.awt.Insets(3, 20, 3, 6));
 
@@ -268,6 +277,10 @@ public class FormInicio extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnPendientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPendientesActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnPendientesActionPerformed
 
     /**
      * @param args the command line arguments
@@ -306,7 +319,7 @@ public class FormInicio extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton2;
+    public javax.swing.JButton btnPendientes;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
