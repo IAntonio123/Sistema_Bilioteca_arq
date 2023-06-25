@@ -4,6 +4,10 @@
  */
 package Vista;
 
+import java.awt.Graphics;
+import java.awt.Image;
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author Antonio
@@ -27,9 +31,23 @@ public class FormInicio extends javax.swing.JFrame {
     private void initComponents() {
 
         jMenuItem5 = new javax.swing.JMenuItem();
-        jdpContenedor = new javax.swing.JDesktopPane();
-        txtusuarioName = new javax.swing.JLabel();
+        ImageIcon icon = new ImageIcon(getClass().getResource("/assets/inicio_background.jpg"));
+        Image image = icon.getImage();
+        jdpContenedor = new javax.swing.JDesktopPane(){
+            public void paintComponent(Graphics g){
+                g.drawImage(image,0,0,getWidth(),getHeight(),this);
+            }
+        };
+        jPanel2 = new javax.swing.JPanel();
+        jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        txtNombreCompletos = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        txtusuario = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        txtRol = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jmRegistro = new javax.swing.JMenu();
         jmFormCliente = new javax.swing.JMenuItem();
@@ -49,48 +67,131 @@ public class FormInicio extends javax.swing.JFrame {
         jMenuItem5.setText("jMenuItem5");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        txtusuarioName.setText("asd");
-
-        jLabel1.setText("jLabel1");
-
-        jdpContenedor.setLayer(txtusuarioName, javax.swing.JLayeredPane.DEFAULT_LAYER);
-        jdpContenedor.setLayer(jLabel1, javax.swing.JLayeredPane.DEFAULT_LAYER);
+        setBackground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jdpContenedorLayout = new javax.swing.GroupLayout(jdpContenedor);
         jdpContenedor.setLayout(jdpContenedorLayout);
         jdpContenedorLayout.setHorizontalGroup(
             jdpContenedorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jdpContenedorLayout.createSequentialGroup()
-                .addGap(243, 243, 243)
-                .addGroup(jdpContenedorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jdpContenedorLayout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addComponent(jLabel1))
-                    .addComponent(txtusuarioName, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(635, Short.MAX_VALUE))
+            .addGap(0, 847, Short.MAX_VALUE)
         );
         jdpContenedorLayout.setVerticalGroup(
             jdpContenedorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jdpContenedorLayout.createSequentialGroup()
-                .addGap(88, 88, 88)
-                .addComponent(txtusuarioName, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel1)
-                .addContainerGap(450, Short.MAX_VALUE))
+            .addGap(0, 632, Short.MAX_VALUE)
         );
+
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel1.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 14)); // NOI18N
+        jLabel1.setText("Usuario");
+
+        txtNombreCompletos.setFont(new java.awt.Font("Yu Gothic UI Semilight", 0, 14)); // NOI18N
+        txtNombreCompletos.setText("Isaias Antonio Mayhuay");
+
+        jLabel2.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 14)); // NOI18N
+        jLabel2.setText("Nombre Completo");
+
+        txtusuario.setFont(new java.awt.Font("Yu Gothic UI Semilight", 0, 14)); // NOI18N
+        txtusuario.setText("Antonio");
+
+        jLabel3.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 14)); // NOI18N
+        jLabel3.setText("Rol");
+
+        txtRol.setFont(new java.awt.Font("Yu Gothic UI Semilight", 0, 14)); // NOI18N
+        txtRol.setText("Ventas");
+
+        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/usuario_image.png"))); // NOI18N
+        jLabel4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(txtNombreCompletos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addContainerGap())
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel1)
+                            .addComponent(txtusuario, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel3)
+                            .addComponent(txtRol, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel2))
+                        .addGap(0, 17, Short.MAX_VALUE))))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 185, Short.MAX_VALUE)
+                .addGap(50, 50, 50)
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(txtusuario, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(25, 25, 25)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(txtNombreCompletos, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(txtRol, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(19, 19, 19))
+        );
+
+        jButton2.setText("Cerrar Sesion");
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(34, 34, 34)
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(29, 29, 29))
+        );
+
+        jMenuBar1.setBorder(null);
 
         jmRegistro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/registros_icon.png"))); // NOI18N
         jmRegistro.setText("Registro");
+        jmRegistro.setFont(new java.awt.Font("Century Gothic", 1, 16)); // NOI18N
+        jmRegistro.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        jmRegistro.setIconTextGap(10);
+        jmRegistro.setMargin(new java.awt.Insets(3, 20, 3, 6));
 
+        jmFormCliente.setFont(new java.awt.Font("Yu Gothic UI Semilight", 0, 14)); // NOI18N
         jmFormCliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/clientes_icon.png"))); // NOI18N
         jmFormCliente.setText("Cliente");
         jmRegistro.add(jmFormCliente);
 
+        jmFormLibro.setFont(new java.awt.Font("Yu Gothic UI Semilight", 0, 14)); // NOI18N
         jmFormLibro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/libros_icon.png"))); // NOI18N
         jmFormLibro.setText("Libro");
         jmRegistro.add(jmFormLibro);
 
+        jmFormAutor.setFont(new java.awt.Font("Yu Gothic UI Semilight", 0, 14)); // NOI18N
         jmFormAutor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/autores_icon.png"))); // NOI18N
         jmFormAutor.setText("Autor");
         jmRegistro.add(jmFormAutor);
@@ -99,10 +200,17 @@ public class FormInicio extends javax.swing.JFrame {
 
         jmNegocio.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/negocio_icon.png"))); // NOI18N
         jmNegocio.setText("Negocio");
+        jmNegocio.setFont(new java.awt.Font("Century Gothic", 1, 16)); // NOI18N
+        jmNegocio.setIconTextGap(10);
+        jmNegocio.setMargin(new java.awt.Insets(3, 20, 3, 6));
 
+        jmFormVenta.setFont(new java.awt.Font("Yu Gothic UI Semilight", 0, 14)); // NOI18N
+        jmFormVenta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/vender_libro_icon.png"))); // NOI18N
         jmFormVenta.setText("Venta");
         jmNegocio.add(jmFormVenta);
 
+        jmFormPrestamo.setFont(new java.awt.Font("Yu Gothic UI Semilight", 0, 14)); // NOI18N
+        jmFormPrestamo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/prestamo_libro_icon.png"))); // NOI18N
         jmFormPrestamo.setText("Prestamo");
         jmNegocio.add(jmFormPrestamo);
 
@@ -110,6 +218,9 @@ public class FormInicio extends javax.swing.JFrame {
 
         jmListar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/listar_icon.png"))); // NOI18N
         jmListar.setText("Listar");
+        jmListar.setFont(new java.awt.Font("Century Gothic", 1, 16)); // NOI18N
+        jmListar.setIconTextGap(10);
+        jmListar.setMargin(new java.awt.Insets(3, 20, 3, 6));
 
         jmMostrarVentas.setText("Mostrar Ventas");
         jmListar.add(jmMostrarVentas);
@@ -121,6 +232,9 @@ public class FormInicio extends javax.swing.JFrame {
 
         jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/historial_icon.png"))); // NOI18N
         jMenu4.setText("Historial");
+        jMenu4.setFont(new java.awt.Font("Century Gothic", 1, 16)); // NOI18N
+        jMenu4.setIconTextGap(10);
+        jMenu4.setMargin(new java.awt.Insets(3, 20, 3, 6));
 
         jMenuItem4.setText("Ventas");
         jMenu4.add(jMenuItem4);
@@ -139,11 +253,17 @@ public class FormInicio extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jdpContenedor)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jdpContenedor)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jdpContenedor, javax.swing.GroupLayout.Alignment.TRAILING)
+            .addComponent(jdpContenedor)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pack();
@@ -186,13 +306,19 @@ public class FormInicio extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JMenu jMenu4;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
     private javax.swing.JMenuItem jMenuItem6;
     private javax.swing.JMenuItem jMenuItem7;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     public javax.swing.JDesktopPane jdpContenedor;
     public javax.swing.JMenuItem jmFormAutor;
     public javax.swing.JMenuItem jmFormCliente;
@@ -204,6 +330,8 @@ public class FormInicio extends javax.swing.JFrame {
     private javax.swing.JMenuItem jmMostrarVentas;
     private javax.swing.JMenu jmNegocio;
     private javax.swing.JMenu jmRegistro;
-    public javax.swing.JLabel txtusuarioName;
+    public javax.swing.JLabel txtNombreCompletos;
+    public javax.swing.JLabel txtRol;
+    public javax.swing.JLabel txtusuario;
     // End of variables declaration//GEN-END:variables
 }

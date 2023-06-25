@@ -9,6 +9,7 @@ import Vista.FormInicio;
 import Vista.FormLogin;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.UIManager;
 
 /**
  *
@@ -22,6 +23,7 @@ public class ControladorLogin implements ActionListener{
         vista=fl;
         vistaMenu=fi;
         vista.jbtnIniciarSesion.addActionListener(this);
+        
         fl.setDefaultCloseOperation(fl.EXIT_ON_CLOSE);
         fl.setVisible(true);
         fl.setTitle("Login");
