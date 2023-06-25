@@ -7,18 +7,14 @@
             <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Vista/FormLogin.java</file>
             <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Procesos/ProcesosFormMascota.java</file>
             <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Vista/FormCliente.java</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Procesos/ProcesosFormVenta.java</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Procesos/ProcesosFormAutor.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/assets/autores_icon.png</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/assets/guardar_icon.png</file>
             <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Vista/FormLibro.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/assets/editar_icon.png</file>
             <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Procesos/ProcesosFormCliente.java</file>
             <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Vista/FormVenta.java</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Modelo/Mascota.java</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Dao/ConectarDB.java</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Modelo/Cliente.java</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Dao/Parametros.java</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Modelo/Libro.java</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Procesos/ProcesosFormLibro.java</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Modelo/Usuario.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/assets/consultar_icon.png</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/assets/clientes_icon.png</file>
             <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Vista/FormAutor.java</file>
         </group>
     </open-files>
