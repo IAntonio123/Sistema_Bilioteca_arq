@@ -3,19 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Vista/FormInicio.java</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Vista/FormLogin.java</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Procesos/ProcesosFormMascota.java</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Vista/FormCliente.java</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/assets/autores_icon.png</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/assets/guardar_icon.png</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Vista/FormLibro.java</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/assets/editar_icon.png</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Procesos/ProcesosFormCliente.java</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Vista/FormVenta.java</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/assets/consultar_icon.png</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/assets/clientes_icon.png</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/src/Vista/FormAutor.java</file>
+            <file>file:/C:/Users/Antonio/Downloads/gitvclone/Sistema_Bilioteca_arq/src/Vista/FormLogin.java</file>
+            <file>file:/C:/Users/Antonio/Downloads/gitvclone/Sistema_Bilioteca_arq/src/Procesos/ProcesosFormMascota.java</file>
+            <file>file:/C:/Users/Antonio/Downloads/gitvclone/Sistema_Bilioteca_arq/src/Main/Main.java</file>
+            <file>file:/C:/Users/Antonio/Downloads/gitvclone/Sistema_Bilioteca_arq/src/Vista/FormAutor.java</file>
+            <file>file:/C:/Users/Antonio/Downloads/gitvclone/Sistema_Bilioteca_arq/src/Vista/FormLibro.java</file>
+            <file>file:/C:/Users/Antonio/Downloads/gitvclone/Sistema_Bilioteca_arq/src/Vista/FormInicio.java</file>
+            <file>file:/C:/Users/Antonio/Downloads/gitvclone/Sistema_Bilioteca_arq/src/Procesos/ProcesosFormAutor.java</file>
         </group>
     </open-files>
 </project-private>
