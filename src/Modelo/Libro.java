@@ -9,5 +9,10 @@ package Modelo;
  * @author Antonio
  */
 public class Libro {
-    
+    private String id;
+    private String titulo;
+    private int stock;
+    private double precio;
+    private String fechaPüblicacion;
+    private String descripcion;
 }

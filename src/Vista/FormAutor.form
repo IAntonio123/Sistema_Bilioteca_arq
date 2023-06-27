@@ -162,7 +162,7 @@
             <Component class="javax.swing.JLabel" name="jLabel2">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Yu Gothic UI Semilight" size="14" style="1"/>
+                  <Font name="Century Gothic" size="14" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="ID"/>
               </Properties>
@@ -180,7 +180,7 @@
             <Component class="javax.swing.JLabel" name="jLabel3">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Yu Gothic UI Semilight" size="14" style="1"/>
+                  <Font name="Century Gothic" size="14" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Nombres"/>
               </Properties>
@@ -198,7 +198,7 @@
             <Component class="javax.swing.JLabel" name="jLabel4">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Yu Gothic UI Semilight" size="14" style="1"/>
+                  <Font name="Century Gothic" size="14" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Apellidos"/>
               </Properties>
@@ -216,7 +216,7 @@
             <Component class="javax.swing.JLabel" name="jLabel5">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Yu Gothic UI Semilight" size="14" style="1"/>
+                  <Font name="Century Gothic" size="14" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Fecha Nacimiento"/>
               </Properties>

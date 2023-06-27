@@ -53,22 +53,22 @@ public class FormAutor extends javax.swing.JInternalFrame {
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel2.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         jLabel2.setText("ID");
 
         txtDni.setFont(new java.awt.Font("Yu Gothic UI Semilight", 0, 14)); // NOI18N
 
-        jLabel3.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         jLabel3.setText("Nombres");
 
         txtNombres.setFont(new java.awt.Font("Yu Gothic UI Semilight", 0, 14)); // NOI18N
 
-        jLabel4.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         jLabel4.setText("Apellidos");
 
         txtApellidos.setFont(new java.awt.Font("Yu Gothic UI Semilight", 0, 14)); // NOI18N
 
-        jLabel5.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
         jLabel5.setText("Fecha Nacimiento");
 
         btnActualizar.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 14)); // NOI18N
