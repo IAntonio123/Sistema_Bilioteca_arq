@@ -3,15 +3,34 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Vista/FormPrestamo.java</file>
             <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Vista/FormLogin.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Vista/FormMostrarPrestamos.java</file>
             <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Vista/FormLibro.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Procesos/ProcesoFormMostrarPrestamo.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Procesos/ProcesosFormCliente.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Procesos/ProcesoFormMostrarLibros.java</file>
             <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Modelo/Cliente.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Vista/FormMostrarLibros.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Modelo/DetalleVenta.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Modelo/LibroAutor.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Controlador/ControladorCliente.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Controlador/ControladorLibro.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Procesos/ProcesoFormPrestamo.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Controlador/ControladorMenu.java</file>
             <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Vista/FormCliente.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Procesos/ProcesosFormAutor.java</file>
             <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Vista/FormInicio.java</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Modelo/Libro.java</file>
-            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Vista/FormAutor.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Main/Main.java</file>
             <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Vista/FormVenta.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Vista/FormPrestamo.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Modelo/Prestamo.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Controlador/ControladorLogin.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Vista/FormMostrarVentas.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Procesos/ProcesosFormVenta.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Modelo/Libro.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Procesos/ProcesosFormLibro.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Vista/FormAutor.java</file>
+            <file>file:/C:/Users/Antonio/Documents/Sistema_Ventas_Bilioteca/Sistema_Bilioteca_arq/src/Procesos/ProcesoFormMostrarVenta.java</file>
         </group>
     </open-files>
 </project-private>

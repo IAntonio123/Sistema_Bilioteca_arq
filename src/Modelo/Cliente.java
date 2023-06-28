@@ -11,7 +11,6 @@ package Modelo;
 public class Cliente {
     private String idcli;
     private String nombrecli;
-    private String apellicli;
     private String correocli;
     private String direccioncli;
     private int telefonocli;
@@ -34,14 +33,6 @@ public class Cliente {
 
     public void setNombrecli(String nombrecli) {
         this.nombrecli = nombrecli;
-    }
-
-    public String getApellicli() {
-        return apellicli;
-    }
-
-    public void setApellicli(String apellicli) {
-        this.apellicli = apellicli;
     }
 
     public String getCorreocli() {

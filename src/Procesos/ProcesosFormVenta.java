@@ -4,10 +4,15 @@
  */
 package Procesos;
 
+import Vista.FormVenta;
+
 /**
  *
  * @author Antonio
  */
 public class ProcesosFormVenta {
-    
+    public static void Presentacion(FormVenta fvent){
+        fvent.setTitle("Venta Libro");
+        fvent.setVisible(true);
+    }
 }

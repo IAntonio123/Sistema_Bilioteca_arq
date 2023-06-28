@@ -21,6 +21,21 @@ public class Main {
     public static FormLibro flib;
     public static ControladorLibro controlflib;
     
+    public static FormVenta fvent;
+    public static ControladorVenta controlVent;
+    
+    public static FormPrestamo fprest;
+    public static ControladorPrestamo controlPrest;
+    
+    public static FormMostrarLibros fLisLib;
+    public static ControladorMostrarLibros controlfLisLib;
+    
+    public static FormMostrarVentas fLisVent;
+    public static ControladorMostrarVenta controlfListVent;
+    
+    public static FormMostrarPrestamos fLisPrest;
+    public static ControladorMostrarPrestamo controlLisPrest;
+    
     public static Usuario userSesion;
     public static void main(String[] args) {
         Usuario user=new Usuario();

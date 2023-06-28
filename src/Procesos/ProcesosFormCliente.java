@@ -31,7 +31,6 @@ public class ProcesosFormCliente {
     public static void LimpiarEntradas(FormCliente fcli){
         fcli.txtDni.setText("");
         fcli.txtNombres.setText("");
-        fcli.txtApellidos.setText("");
         fcli.txtTelefono.setText("");
         fcli.txtDireccion.setText("");
         fcli.txtCorreo.setText("");
@@ -41,7 +40,6 @@ public class ProcesosFormCliente {
         Cliente cli=new Cliente();
         cli.setDnicli(fcli.txtDni.getText());
         cli.setNombrecli(fcli.txtNombres.getText());
-        cli.setApellicli(fcli.txtApellidos.getText());
         cli.setTelefonocli(Integer.parseInt(fcli.txtTelefono.toString()));
         cli.setDireccioncli(fcli.txtDireccion.getText());
         cli.setCorreocli(fcli.txtCorreo.getText());

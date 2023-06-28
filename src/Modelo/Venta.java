@@ -9,5 +9,11 @@ package Modelo;
  * @author Antonio
  */
 public class Venta {
+    private int id;
+
+    public Venta() {
+    }
     
+    
+            
 }
